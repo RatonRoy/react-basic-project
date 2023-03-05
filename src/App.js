@@ -1,13 +1,13 @@
+import React from 'react';
 import './App.css';
+import Reviews from './components/Review/Reviews';
 
-function App() {
-
-  
+const App = () => {
   return (
-    <div className="">
-      
-    </div>
+    <main>
+      <Reviews/> 
+    </main>
   );
-}
+};
 
 export default App;
